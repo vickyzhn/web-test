@@ -1,0 +1,78 @@
+*{ margin:0; padding:0; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box;}
+.clearfix{ overflow:auto; zoom:1; }
+h1,h2,h3,h4,h5{ font-size:1em; }
+img{ border:none;}
+a{ text-decoration:none;}
+p{ margin:0; padding:0;}
+ul li{ list-style:none;}
+
+/*头部*/
+#header_bg{ width:100%; height:80px; background-color: #522a5c; position:relative; min-width:980px; overflow:hidden; _zoom:1;}
+#header{ width:980px; height:80px; margin:auto; overflow:hidden; _zoom:1;}
+#logo{ padding-top:33px;padding-bottom:5px; float:left; }
+#logo h2{ font-weight: normal; font-size:28px; line-height:42px; color:#fff; }
+#navigation{ padding-top:47px; padding-bottom:5px; float:right;}
+#navigation ul li{ display:inline; font-size:14px; line-height: 28px; color:#fff; font-family:"宋体"; padding-left: 28px;}
+@media screen and (min-width:1082px){
+    #logo_github{ width:30px; position: absolute; top:46px; right:10px;}
+    #logo_github a{ display:block; font-size: 0;}
+    #logo_github a img{ width:30px; height:34px;}
+}
+@media screen and (max-width:1081px){
+    #logo_github{ display: none;}
+}
+
+/*banner*/
+#banner_bg{ width:100%; height:525px; background:url(../images/banner-bg.jpg) center no-repeat; min-width:980px; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
+#banner{ width:980px; height:525px; margin:auto; position:relative;}
+#banner_con{ 
+    width:360px; 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3ffffff', endColorstr='#00ffffff', GradientType=0 ); 
+    -ms-filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3ffffff', endColorstr='#00ffffff', GradientType=0);
+    background:-webkit-linear-gradient(top, rgba(255,255,255,0.7), rgba(255,255,255,0.5), rgba(255,255,255,0));
+    background:-moz-linear-gradient(top, rgba(255,255,255,0.7), rgba(255,255,255,0.5), rgba(255,255,255,0));
+    position:absolute; 
+    right:0; 
+    bottom:0;
+    padding:10px 10px 30px;
+}
+#banner_con h2{ font-size:14px; color:#fff; float:right; margin-bottom: 12px; display: block;}
+#banner_con p{ font-size:12px; color:#fff; float:right; line-height: 150%; text-indent:2em; padding-right:0;}
+
+/*container*/
+#container_bg{ width:100%; height:100%; overflow: hidden; padding:10px 0 60px; background:#eee; min-width:980px;z-index: -1;}
+#container{ width:980px; height:100%; overflow: hidden; margin:auto; }
+.box{ width:320px; float:left; background:#fff;}
+.box_img{ width:300px; height:180px; margin:10px 10px 15px; overflow: hidden;}
+.box_img img{ width:100%; height:100%;}
+.box_txt{ padding:0 30px 25px;}
+.box_txt p{ font-size:12px; text-indent:2em;}
+.mar{ margin:0 10px;}
+
+/*container3*/
+#container3_bg{ width:100%; height:160px; background:#eee; min-width:980px; position:relative;}
+#container3_next{ width:100%; height:110px; background:#fff; min-width:980px; position:absolute; bottom:0;}
+#container3_img{ width:160px; height:160px; margin:auto; margin-top:-50px;}
+#container3_img img{ width:100%; height:100%; border-radius:80px;}
+.space{ width:980px; height:110px; background:#fff; margin:auto; position: absolute; bottom:0;}
+
+/*container2*/
+#container2_bg{ width:100%; height:100%; overflow: hidden; min-width:980px; padding-bottom: 175px;}
+#container2,.box2{ width:980px; height:100%; overflow: hidden; margin:auto; text-align:center;}
+.box2_txt h2{ font-size:20px; font-family: "Century Gothic"; padding:50px 0; font-weight: normal;}
+.box2_txt p{ font-size:14px; line-height: 20px; width:590px; margin:auto; text-align: left; text-indent:2em;}
+
+/*footer*/
+#footer_bg{ width:100%;  overflow:hidden; background:#000; min-width:980px;}
+#footer_nav_bg{ width:100%; min-width: 980px; border-bottom: 1px solid #333;}
+#footer_nav{ width:980px; margin:auto; padding:10px 0; text-align: center;}
+#footer_nav ul li{ display:inline; color:#fff; font-size:12px; }
+#footer{ width:980px;  overflow:hidden; margin:auto; text-align: center;}
+.footer_box{ width:196px; height:100%; float:left; padding:42px 0 84px;}
+.footer_box h3{ color:#ccc; font-size:12px; float:left;}
+.footer_box ul{ float:left; margin-top:20px;}
+.footer_box ul li{ color:#fff; font-size:12px; line-height: 22px; text-align:left; }
+.under{ text-decoration: underline;}
+#footer_last{ position:relative; clear:left; width:980px; height:68px; text-align: center; }
+#footer_last p{ color:#fff; font-size:12px; line-height: 14px;}
+#footer_icon{ width:30px; height:34px; margin:auto; padding-top:20px;}
