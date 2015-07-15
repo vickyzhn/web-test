@@ -15,6 +15,7 @@ ul li{ list-style:none;}
 #logo h2{ font-weight: normal; font-size:28px; line-height:42px; color:#fff; }
 #navigation{ padding-top:47px; padding-bottom:5px; float:right;}
 #navigation ul li{ display:inline; font-size:14px; line-height: 28px; color:#fff; font-family:"宋体"; padding-left: 28px;}
+#navigation ul li a{ font-size:14px; line-height: 28px; color:#fff; font-family:"宋体"; padding-left: 28px;}
 @media screen and (min-width:1082px){
     #logo_github{ width:30px; position: absolute; top:46px; right:10px;}
     #logo_github a{ display:block; font-size: 0;}
